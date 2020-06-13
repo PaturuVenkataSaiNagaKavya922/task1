@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">task1</string>
+    <string name="toast">Toast</string>
+    <string name="kavya">Kavya</string>
+    <string name="add">add</string>
+    <string name="sub">sub</string>
+</resources>

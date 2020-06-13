@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="Reset"
+        android:text="reset"
+        android:textColor="#ffff"
+        android:background="#74A"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="8"
+        android:text="0"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="180sp"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:onClick="add"
+        android:text="@string/add"
+        android:textColor="fff"
+        android:textsize="40sp"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:onClick="sub"
+        android:text="@string/sub" />
+
+</LinearLayout>
